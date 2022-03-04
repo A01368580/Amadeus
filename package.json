@@ -1,0 +1,27 @@
+{
+  "name": "discorrupcion",
+  "version": "1.0.0",
+  "description": "facilita la denuncia anónima para whistleblowers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "corruption",
+    "tec",
+    "de",
+    "mty"
+  ],
+  "author": "AMADEUS",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
